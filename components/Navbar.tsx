@@ -6,6 +6,7 @@ import Brand from "./Brand";
 const links = [
   ["Services", "#services"],
   ["The Studio", "#studio"],
+  ["Gallery", "#gallery"],
   ["Reviews", "#reviews"],
   ["Location", "#location"],
 ] as const;
