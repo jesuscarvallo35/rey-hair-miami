@@ -7,7 +7,7 @@ export default function Hero() {
         <p className="eyebrow eyebrow--light">Davie, Florida</p>
         <h1>Crafted for your<br /><em>best look.</em></h1>
         <p className="hero__copy">Precision grooming and a refined salon experience, tailored to the way you show up.</p>
-        <a className="button button--light" href="#booking">Reserve your chair <span>↗</span></a>
+        <a className="button button--light" href="sms:+19549342390">Reserve your chair <span>↗</span></a>
       </div>
       <a className="hero__scroll" href="#services">Scroll to discover <span>↓</span></a>
     </section>
