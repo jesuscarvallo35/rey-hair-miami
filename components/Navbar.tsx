@@ -22,7 +22,7 @@ export default function Navbar() {
         </button>
         <div className={`nav__links ${open ? "nav__links--open" : ""}`}>
           {links.map(([label, href]) => <a key={href} href={href} onClick={() => setOpen(false)}>{label}</a>)}
-          <a className="nav__book" href="#booking" onClick={() => setOpen(false)}>Book an appointment</a>
+          <a className="nav__book" href="sms:+19549342390" onClick={() => setOpen(false)}>Book an appointment</a>
         </div>
       </nav>
     </header>
